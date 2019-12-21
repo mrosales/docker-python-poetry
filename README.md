@@ -1,8 +1,7 @@
 Docker Image for Python Poetry
 ==============================
 
-![DockerHub](https://img.shields.io/badge/DockerHub-python--poetry-blue)
-![Docker Pulls](https://img.shields.io/docker/pulls/mrosales/docker-python-poetry)
+[![DockerHub](https://img.shields.io/badge/Docker-python--poetry-blue?style=flat-square&logo=docker)](https://hub.docker.com/r/mrosales/python-poetry)
 
 Provide a Docker image for [Poetry](https://python-poetry.org/).
 
