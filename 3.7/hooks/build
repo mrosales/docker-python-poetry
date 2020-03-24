@@ -1,0 +1,10 @@
+#!/bin/bash
+
+set -e
+
+docker build \
+    --build-arg PYTHON_VERSION=$PYTHON37_VERSION \
+    --build-arg POETRY_VERSION=$POETRY_VERSION
+    -f $DOCKERFILE_PATH \
+    -t $IMAGE_NAME \
+    .
