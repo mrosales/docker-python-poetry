@@ -3,7 +3,7 @@
 set -e
 
 extra_tags=()
-extra_tags+=( "$DOCKER_REPO:python-$PYTHON37_VERSION-poetry-$POETRY_VERSION" )
+extra_tags+=( "python-$PYTHON37_VERSION-poetry-$POETRY_VERSION" )
 
 for alias_tag in "${extra_tags[@]}"
 do
